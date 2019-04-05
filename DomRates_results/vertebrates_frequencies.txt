@@ -1,0 +1,27 @@
+# DomRates version 1.0.0 at Wed Mar 20 14:32:31 2019
+# domRates -t verte_tree-mod1.nwk -a <path> -g verte_OG -e _iso.fa.dom -o <path> -s <path> -n  -d 1 -p 10
+# Solution types
+Exact solutions: 28273
+Non-ambiguous solutions: 3087
+Ambiguous solutions: 3973
+Complex solutions: 24411
+Maintained arrangements total: 722014
+
+Exact and non-ambiguous solutions: 31360
+
+# Event types
+Fusions: 10177
+Fissions: 6138
+Terminal Loss: 6435
+Terminal Emergences: 42
+Single Domain Losses: 8377
+Single Domain Emergences: 191
+
+# Event rates
+Fusion rate: 32.45%
+Fission rate: 19.57%
+Terminal Loss rate: 20.52%
+Terminal Emergence rate: 0.13%
+Single Domain Loss rate: 26.71%
+Single Domain Emergence rate: 0.61%
+

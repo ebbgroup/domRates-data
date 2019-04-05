@@ -1,0 +1,13 @@
+# Number of events per node.
+# Node ID	#Fusions	#Fissions	#TerminalLosses	#TerminalEmergences	#SingleDomainLosses	#SingleDomainEmergences
+0	0	0	0	0	0	0
+1	0	0	0	0	0	0
+2	161	69	86	7	42	14
+3	92	37	36	26	3	91
+4	113	73	81	5	168	13
+5	98	35	26	21	5	41
+6	63	61	59	6	53	4
+7	53	12	13	6	3	16
+8	134	47	51	7	63	32
+9	87	56	64	4	21	11
+10	0	0	0	0	0	0

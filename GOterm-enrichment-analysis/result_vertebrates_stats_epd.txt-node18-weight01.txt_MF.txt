@@ -1,0 +1,8 @@
+"","GO.ID","Term","Annotated","Significant","Expected","fisher"
+"1","GO:0004672","protein kinase activity",133,7,2.18,"0.0038"
+"2","GO:0030492","hemoglobin binding",1,1,0.02,"0.0164"
+"3","GO:0016620","oxidoreductase activity, acting on the a...",1,1,0.02,"0.0164"
+"4","GO:0005515","protein binding",919,24,15.07,"0.0189"
+"5","GO:0003676","nucleic acid binding",438,11,7.18,"0.0320"
+"6","GO:0042393","histone binding",2,1,0.03,"0.0325"
+"7","GO:0030151","molybdenum ion binding",3,1,0.05,"0.0484"

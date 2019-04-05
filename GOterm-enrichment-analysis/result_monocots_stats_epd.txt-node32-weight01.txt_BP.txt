@@ -1,0 +1,7 @@
+"","GO.ID","Term","Annotated","Significant","Expected","fisher"
+"1","GO:0006468","protein phosphorylation",172,40,14.49,"1.8e-10"
+"2","GO:0055114","oxidation-reduction process",191,27,16.09,"0.0034"
+"3","GO:0031047","gene silencing by RNA",5,3,0.42,"0.0052"
+"4","GO:0006265","DNA topological change",8,3,0.67,"0.0239"
+"5","GO:0016998","cell wall macromolecule catabolic proces...",4,2,0.34,"0.0378"
+"6","GO:0006032","chitin catabolic process",4,2,0.34,"0.0378"

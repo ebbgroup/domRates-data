@@ -1,0 +1,27 @@
+# DomRates version 1.0.0 at Tue Mar 19 18:15:04 2019
+# domRates -t tree_insects.nwk_jackknife_64.nwk -a <path> -g outgroups -e _iso.fa.dom -o <path> -s  -n  -d 1 -p 10
+# Solution types
+Exact solutions: 21650
+Non-ambiguous solutions: 2049
+Ambiguous solutions: 2011
+Complex solutions: 21290
+Maintained arrangements total: 562089
+
+Exact and non-ambiguous solutions: 23699
+
+# Event types
+Fusions: 9794
+Fissions: 4043
+Terminal Loss: 4502
+Terminal Emergences: 85
+Single Domain Losses: 4863
+Single Domain Emergences: 412
+
+# Event rates
+Fusion rate: 41.33%
+Fission rate: 17.06%
+Terminal Loss rate: 19.00%
+Terminal Emergence rate: 0.36%
+Single Domain Loss rate: 20.52%
+Single Domain Emergence rate: 1.74%
+

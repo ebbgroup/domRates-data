@@ -1,0 +1,54 @@
+# pfam_scan.pl,  run at Wed Sep 16 12:49:00 2015
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jm14@sanger.ac.uk), John Tate (jt6@sanger.ac.uk), 
+#          Rob Finn (rdf@sanger.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: /global/public/home/e_dohm01/annotation/Arabidopsis_thaliana.TAIR10.28.pep.all.fa
+#        searching against: /global/databases/pfam/v28.0//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+D0001      1     10     1     10 PF00001  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0002      1     10     1     10 PF00003  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0004      1     10     1     10 PF00006  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0004      11     20     11     20 PF00007  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0004      21     30     21     30 PF00008  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0004      31     40     31     40 PF00009  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0004      41     50     41     50 PF00010  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0008      1     10     1     10 PF00010  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0008      11     20     11     20 PF00009  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0008      21     30     21     30 PF00008  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0008      31     40     31     40 PF00007  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0008      41     50     41     50 PF00006  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0015      1     10     1     10 PF00016  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0015      11     20     11     20 PF00017  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0015      21     30     21     30 PF00018  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0016      1     10     1     10 PF00020  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0016      11     20     11     20 PF00021  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0016      21     30     21     30 PF00022  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0016      31     40     31     40 PF00023  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0021      1     10     1     10 PF00031  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0021      11     20     11     20 PF00032  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0021      21     30     21     30 PF00033  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0021      31     40     31     40 PF00040  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0022      1     10     1     10 PF00031  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0022      11     20     11     20 PF00032  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan
+D0023      21     30     21     30 PF00033  ATP-synt_C        Family     3    46    63     26.4   5.3e-06   1 No_clan

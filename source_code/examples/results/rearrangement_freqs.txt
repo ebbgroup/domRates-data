@@ -1,0 +1,26 @@
+# DomRates version 1.0.0 at Wed Mar  6 23:35:19 2019
+# domRates -t example_tree.nwk -a annotations/ -g Saccharomyces_cerevisiae -e .dom -o rearrangement_freqs.txt -s stats.txt -n  -d 0 -p 1
+# Solution types
+Exact solutions: 2056
+Non-ambiguous solutions: 213
+Ambiguous solutions: 291
+Complex solutions: 1853
+
+Exact and non-ambiguous solutions: 2269
+
+# Event types
+Fusions: 801
+Fissions: 390
+Terminal Loss: 416
+Terminal Emergences: 82
+Single Domain Losses: 358
+Single Domain Emergences: 222
+
+# Event rates
+Fusion rate: 35.30%
+Fission rate: 17.19%
+Terminal Loss rate: 18.33%
+Terminal Emergence rate: 3.61%
+Single Domain Loss rate: 15.78%
+Single Domain Emergence rate: 9.78%
+

@@ -1,0 +1,110 @@
+# pfam_scan.pl,  run at Fri May 10 09:11:19 2013
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU
+# General Public License
+#
+# Authors: Jaina Mistry (jm14@sanger.ac.uk), John Tate (jt6@sanger.ac.uk),
+#          Rob Finn (rdf@sanger.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>.
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: ../../../general/aln_benchmarks/bb3_release/RV20/BB20012.tfa
+#        searching against: ../../../general/pfam27//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+1kjz_A          5    193      3    194 PF00009.22  GTP_EFTU          Domain     3   187   188    145.5   1.2e-42   1 CL0023
+1kjz_A        221    302    221    303 PF03144.20GTP_EFTU_D2       Domain     1    73    74     38.6   8.3e-10   1 CL0023
+1kjz_A        312    398    312    398 PF09173.6   eIF2_C            Domain     1    88    88    113.4   3.7e-33   1 No_clan
+IF2G_METTH      6    198      4    199 PF00009.22  GTP_EFTU          Domain     3   187   188    149.3   8.1e-44   1 CL0023
+IF2G_METTH    230    298    230    310 PF03144.20  GTP_EFTU_D2       Domain     1    62    74     34.2     2e-08   1 CL0023
+IF2G_METTH    324    407    322    407 PF09173.6   eIF2_C            Domain     4    88    88    111.1   1.9e-32   1 No_clan
+IF2G_METJA   ff37    226     35    227 PF00009.22  GTP_EFTU          Domain     3   187   188    150.7   2.9e-44   1 CL0023   
+IF2G_METJA    258    339    258    340 PF03144.20  GTP_EFTU_D2       Domain     1    73    74     27.9   1.9e-06   1 CL0023
+IF2G_METJA    351    435    349    435 PF09173.6   eIF2_C            Domain     3    88    88    114.0   2.4e-33   1 No_clan
+IF2G_ARCFU     26    217     24    218 PF00009.22  GTP_EFTU          Domain     4   187   188    146.8   4.7e-43   1 CL0023
+IF2G_ARCFU    249    327    249    328 PF03144.20  GTP_EFTU_D2       Domain     1    73    74     35.6   7.3e-09   1 CL0023
+IF2G_ARCFU    338    423    337    423 PF09173.6   eIF2_C            Domain     2    88    88    111.8   1.1e-32   1 No_clan
+IF2G_METAC     40    232     38    233 PF00009.22  GTP_EFTU          Domain     3   187   188    151.0   2.3e-44   1 CL0023
+IF2G_METAC    264    339    264    341 PF03144.20  GTP_EFTU_D2       Domain     1    72    74     28.5   1.1e-06   1 CL0023
+IF2G_METAC    358    441    356    441 PF09173.6   eIF2_C            Domain     4    88    88     97.6   3.1e-28   1 No_clan
+IF2G_METKA     10    202      8    203 PF00009.22  GTP_EFTU          Domain     3   187   188    148.5   1.4e-43   1 CL0023
+IF2G_METKA    234    302    234    315 PF03144.20  GTP_EFTU_D2       Domain     1    62    74     28.5   1.2e-06   1 CL0023
+IF2G_METKA    327    410    325    410 PF09173.6   eIF2_C            Domain     3    88    88    109.0   8.7e-32   1 No_clan
+IF2G_HALHA      9    200      7    202 PF00009.22  GTP_EFTU          Domain     3   186   188    140.0   5.5e-41   1 CL0023
+IF2G_HALHA    233    302    233    310 PF03144.20  GTP_EFTU_D2       Domain     1    63    74     29.7   4.9e-07   1 CL0023
+IF2G_HALHA    325    410    325    410 PF09173.6   eIF2_C            Domain     1    88    88     79.5   1.4e-22   1 No_clan
+IF2G_THEAC     10    199      9    199 PF00009.22  GTP_EFTU          Domain     2   188   188    149.0   9.9e-44   1 CL0023
+IF2G_THEAC    324    407    322    407 PF09173.6   eIF2_C            Domain     4    88    88     98.3   1.9e-28   1 No_clan
+IF2G_AERPE     16    209     14    210 PF00009.22  GTP_EFTU          Domain     3   187   188    142.1   1.3e-41   1 CL0023
+IF2G_AERPE    241    311    241    324 PF03144.20  GTP_EFTU_D2       Domain     1    63    74     29.7   5.1e-07   1 CL0023
+IF2G_AERPE    334    419    333    419 PF09173.6   eIF2_C            Domain     2    88    88    111.4   1.5e-32   1 No_clan
+IF2G_SPIVO      1    192      1    194 PF00009.22  GTP_EFTU          Domain     9   186   188    119.6     1e-34   1 CL0023
+IF2G_SCHPO     22    224     21    225 PF00009.22  GTP_EFTU          Domain     2   187   188    138.0   2.3e-40   1 CL0023
+IF2G_SCHPO    256    338    256    339 PF03144.20  GTP_EFTU_D2       Domain     1    73    74     45.0   8.4e-12   1 CL0023
+IF2G_SCHPO    348    437    348    438 PF09173.6   eIF2_C            Domain     1    87    88    122.6     5e-36   1 No_clan
+IF2G_YEAST     99    303     98    304 PF00009.22  GTP_EFTU          Domain     2   187   188    131.8   1.8e-38   1 CL0023
+IF2G_YEAST    335    417    335    418 PF03144.20  GTP_EFTU_D2       Domain     1    73    74     42.3   5.7e-11   1 CL0023
+IF2G_YEAST    427    517    427    517 PF09173.6   eIF2_C            Domain     1    88    88    122.9   4.1e-36   1 No_clan
+IF2G_HUMAN     39    243     38    244 PF00009.22  GTP_EFTU          Domain     2   187   188    135.4   1.5e-39   1 CL0023
+IF2G_HUMAN    275    358    275    358 PF03144.20  GTP_EFTU_D2       Domain     1    74    74     46.5   2.9e-12   1 CL0023
+IF2G_HUMAN    367    458    367    458 PF09173.6   eIF2_C            Domain     1    88    88    126.4   3.2e-37   1 No_clan
+IF2G_DROME     39    243     38    244 PF00009.22  GTP_EFTU          Domain     2   187   188    139.1     1e-40   1 CL0023
+IF2G_DROME    275    357    275    358 PF03144.20  GTP_EFTU_D2       Domain     1    73    74     48.3   7.8e-13   1 CL0023
+IF2G_DROME    367    458    367    458 PF09173.6   eIF2_C            Domain     1    88    88    123.9   1.9e-36   1 No_clan
+IF2G_ENCCU     12    212     11    213 PF00009.22  GTP_EFTU          Domain     2   187   188    133.7   4.8e-39   1 CL0023
+IF2G_ENCCU    244    313    244    326 PF03144.20  GTP_EFTU_D2       Domain     1    63    74     25.4   1.1e-05   1 CL0023
+IF2G_ENCCU    335    417    335    417 PF09173.6   eIF2_C            Domain     1    88    88     87.1   5.7e-25   1 No_clan
+EFTU_SPIPL     10    211     10    212 PF00009.22  GTP_EFTU          Domain     1   187   188    209.1   3.6e-62   1 CL0023
+EFTU_SPIPL    236    305    236    305 PF03144.20  GTP_EFTU_D2       Domain     1    74    74     58.5     5e-16   1 CL0023
+EFTU_SPIPL    309    408    309    409 PF03143.12  GTP_EFTU_D3       Domain     1    98    99    122.8     5e-36   1 No_clan
+EFT1_PASMU     10    201     10    202 PF00009.22  GTP_EFTU          Domain     1   187   188    203.7   1.6e-60   1 CL0023
+EFT1_PASMU    225    294    225    294 PF03144.20  GTP_EFTU_D2       Domain     1    74    74     59.4   2.6e-16   1 CL0023
+EFT1_PASMU    298    392    298    393 PF03143.12  GTP_EFTU_D3       Domain     1    98    99    117.1     3e-34   1 No_clan
+EFTU_LACPL     10    202     10    202 PF00009.22  GTP_EFTU          Domain     1   188   188    207.1   1.5e-61   1 CL0023
+EFTU_LACPL    225    295    225    295 PF03144.20  GTP_EFTU_D2       Domain     1    74    74     57.3   1.3e-15   1 CL0023
+EFTU_LACPL    299    393    299    394 PF03143.12  GTP_EFTU_D3       Domain     1    98    99    111.9   1.3e-32   1 No_clan
+EFTU_LACLA     10    202     10    202 PF00009.22  GTP_EFTU          Domain     1   188   188    207.1   1.4e-61   1 CL0023
+EFTU_LACLA    225    295    225    295 PF03144.20  GTP_EFTU_D2       Domain     1    74    74     62.1   3.8e-17   1 CL0023
+EFTU_LACLA    299    393    299    394 PF03143.12  GTP_EFTU_D3       Domain     1    98    99    106.4   6.2e-31   1 No_clan
+EFTU_BRELN     10    203     10    204 PF00009.22  GTP_EFTU          Domain     1   187   188    205.2   5.5e-61   1 CL0023
+EFTU_BRELN    227    296    227    297 PF03144.20  GTP_EFTU_D2       Domain     1    73    74     65.0   4.9e-18   1 CL0023
+EFTU_BRELN    301    395    301    396 PF03143.12  GTP_EFTU_D3       Domain     1    98    99    114.3   2.2e-33   1 No_clan
+EFTU_YEAST     46    240     46    240 PF00009.22  GTP_EFTU          Domain     1   188   188    205.3   5.2e-61   1 CL0023
+EFTU_YEAST    263    333    263    333 PF03144.20  GTP_EFTU_D2       Domain     1    74    74     71.8   3.6e-20   1 CL0023
+EFTU_YEAST    338    435    337    436 PF03143.12  GTP_EFTU_D3       Domain     2    98    99     93.1   9.2e-27   1 No_clan
+SELB_MOOTH      3    167      1    170 PF00009.22  GTP_EFTU          Domain     3   185   188    138.6   1.5e-40   1 CL0023
+SELB_MOOTH    194    260    194    261 PF03144.20  GTP_EFTU_D2       Domain     1    73    74     44.6   1.2e-11   1 CL0023
+SELB_MOOTH    377    437    377    437 PF09105.5   SelB-wing_1       Domain     1    61    61    148.4   3.1e-44   1 No_clan
+SELB_MOOTH    448    504    447    504 PF09106.6   SelB-wing_2       Domain     2    59    59     64.2   7.5e-18   1 No_clan
+SELB_MOOTH    586    631    581    632 PF09107.6   SelB-wing_3       Domain     4    49    50     67.0   6.6e-19   1 No_clan
+SELB_DESBA      4    165      2    169 PF00009.22  GTP_EFTU          Domain     5   184   188    134.9     2e-39   1 CL0023
+SELB_DESBA    193    260    193    260 PF03144.20  GTP_EFTU_D2       Domain     1    74    74     30.1   3.7e-07   1 CL0023
+SELB_DESBA    446    503    446    503 PF09106.6   SelB-wing_2       Domain     1    59    59     57.0   1.3e-15   1 No_clan
+SELB_DESBA    583    632    583    632 PF09107.6   SelB-wing_3       Domain     1    50    50     66.4     1e-18   1 No_clan
+SELB_ECOLI      2    163      1    166 PF00009.22  GTP_EFTU          Domain     5   184   188    126.6   7.1e-37   1 CL0023
+SELB_ECOLI    189    256    189    257 PF03144.20  GTP_EFTU_D2       Domain     1    73    74     33.6     3e-08   1 CL0023
+SELB_ECOLI    423    480    423    480 PF09106.6   SelB-wing_2       Domain     1    59    59     67.3   7.7e-19   1 No_clan
+SELB_ECOLI    557    606    557    606 PF09107.6   SelB-wing_3       Domain     1    50    50     68.2   2.8e-19   1 No_clan
+1ega_A          8    122      7    122 PF01926.18  MMR_HSR1          Family     2   116   116     78.6   3.3e-22   1 CL0023
+1ega_A        206    282    206    283 PF07650.12  KH_2              Domain     1    77    78     64.2   5.9e-18   1 CL0007
+1g7r_A         57    199     13    203 PF00009.22  GTP_EFTU          Domain    70   184   188     74.9   5.1e-21   1 CL0023
+1g7r_A        231    301    231    302 PF03144.20  GTP_EFTU_D2       Domain     1    73    74     36.9   2.9e-09   1 CL0023
+1g7r_A        313    419    310    420 PF11987.3   IF-2              Domain     5   108   109     67.8   6.4e-19   1 No_clan
+1g7r_A        439    525    437    525 PF14578.1   GTP_EFTU_D4       Domain     3    81    81     49.0   3.4e-13   1 CL0023
+1mky_A          3    104      2    104 PF01926.18  MMR_HSR1          Family     2   116   116     57.6     1e-15   1 CL0023
+1mky_A        167    269    167    269 PF01926.18  MMR_HSR1          Family     1   116   116     66.4     2e-18   1 CL0023
+1mky_A        327    404    327    404 PF14714.1   KH_dom-like       Domain     1    80    80     55.4   4.3e-15   1 No_clan

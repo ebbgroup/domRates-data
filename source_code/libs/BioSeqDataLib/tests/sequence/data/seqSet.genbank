@@ -1,0 +1,31 @@
+LOCUS       HSFAU1
+ACCESSION   X65921
+DEFINITION  H.sapiens fau 1 gene
+BASE COUNT      421 a    562 c    538 g    495 t
+ORIGIN
+       1  ctaccatttt ccctctcgat tctatatgta cactcgggac aagttctcct gatcgaaaac
+      61  ggcaaaacta aggccccaag taggaatgcc ttagttttcg gggttaacaa tgattaacac
+     121  tgagcctcac acccacgcga tgccctcagc tcctcgctca gcgctctcac caacagccgt
+     181  agcccgcagc cccgctggac accggttctc catccccgca gcgtagcccg gaacatggta
+     241  gctgccatct ttacctgcta cgccagcctt ctgtgcgcgc aactgtctgg tcccgccccg
+     301  tcctgcgcga gctgctgccc aggcaggttc gccggtgcga gcgtaaaggg gcggagctag
+     361  gactgccttg ggcggtacaa atagcaggga accgcgcggt cgctcagcag tgacgtgaca
+     421  cgcagcccac ggtctgtact gacgcgccct cgcttcttcc tctttctcga ctccatcttc
+     481  gcggtagctg ggaccgccgt tcaggtaaga atggggcctt ggctggatcc gaagggcttg
+     541  tagcaggttg gctgcggggt cagaaggcgc ggggggaacc gaagaacggg gcctgctccg
+//
+LOCUS       HSFAU
+ACCESSION   X65923
+DEFINITION  H.sapiens fau mRNA
+BASE COUNT      125 a    139 c    148 g    106 t
+ORIGIN
+       1  ttcctctttc tcgactccat cttcgcggta gctgggaccg ccgttcagtc gccaatatgc
+      61  agctctttgt ccgcgcccag gagctacaca ccttcgaggt gaccggccag gaaacggtcg
+     121  cccagatcaa ggctcatgta gcctcactgg agggcattgc cccggaagat caagtcgtgc
+     181  tcctggcagg cgcgcccctg gaggatgagg ccactctggg ccagtgcggg gtggaggccc
+     241  tgactaccct ggaagtagca ggccgcatgc ttggaggtaa agttcatggt tccctggccc
+     301  gtgctggaaa agtgagaggt cagactccta aggtggccaa acaggagaag aagaagaaga
+     361  agacaggtcg ggctaagcgg cggatgcagt acaaccggcg ctttgtcaac gttgtgccca
+     421  cctttggcaa gaagaagggc cccaatgcca actcttaagt cttttgtaat tctggctttc
+     481  tctaataaaa aagccactta gttcagtcaa aaaaaaaa
+//

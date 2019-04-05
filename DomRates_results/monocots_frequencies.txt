@@ -1,0 +1,27 @@
+# DomRates version 1.0.0 at Wed Mar 20 14:31:09 2019
+# domRates -t tree_final.nwk -a domains/longestIsoform/ -g Outgroups -e .pfam -o <path> -s <path> -n  -d 1 -p 10
+# Solution types
+Exact solutions: 10707
+Non-ambiguous solutions: 1082
+Ambiguous solutions: 1098
+Complex solutions: 5565
+Maintained arrangements total: 153149
+
+Exact and non-ambiguous solutions: 11789
+
+# Event types
+Fusions: 7596
+Fissions: 1440
+Terminal Loss: 1248
+Terminal Emergences: 119
+Single Domain Losses: 1159
+Single Domain Emergences: 227
+
+# Event rates
+Fusion rate: 64.43%
+Fission rate: 12.21%
+Terminal Loss rate: 10.59%
+Terminal Emergence rate: 1.01%
+Single Domain Loss rate: 9.83%
+Single Domain Emergence rate: 1.93%
+

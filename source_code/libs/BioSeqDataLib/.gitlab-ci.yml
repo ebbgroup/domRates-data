@@ -1,0 +1,29 @@
+test library:
+    stage: test
+    only:
+        - master
+    script:
+        - export PATH=/global/group/programs/gcovr/gcovr-3.3/scripts/:$PATH:/home/gitlab-runner/programs/PfamScan:/home/gitlab-runner/programs/hmmer-3.1b2-linux-intel-x86_64/binaries
+        - export PERL5LIB=/global/group/home/ebbadmin/programs/PfamScan:$PERL5LIB
+        - mkdir build
+        - cd build
+        - cmake -DCMAKE_BUILD_TYPE=Coverage -DWITH_UNIT_TEST=1 ..
+        - make -j 2
+        - make test
+        - gcovr -f ../src
+
+deploy library:
+    stage: deploy
+    only:
+        - master
+    script:
+        # DomRates
+        - "curl -X POST -F token=87f901456139011ddee7642bac3f3c -F ref=master https://ebbgit.uni-muenster.de/api/v4/projects/91/trigger/pipeline"
+        # RADIANT
+        - "curl -X POST -F token=56277d39007a0805a7f0264638ad19 -F ref=master https://ebbgit.uni-muenster.de/api/v4/projects/90/trigger/pipeline"
+        # RADS rebuild trigger
+        - "curl -X POST -F token=69948a328a87681cc2e798d0044da2 -F ref=master https://ebbgit.uni-muenster.de/api/v4/projects/59/trigger/pipeline"
+        # dw-helper trigger
+        - "curl -X POST -F token=3b38b39bbddef9b188f8e9a7438029 -F ref=master https://ebbgit.uni-muenster.de/api/v4/projects/104/trigger/pipeline"
+
+

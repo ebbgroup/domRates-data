@@ -1,0 +1,11 @@
+DomRates version 1.0.0 release notes
+- new output:
+    - main output includes time and parameters used for DomRates run
+    - main output includes headers
+    - statistics file includes information about solution type, event type and parental arrangement
+- identities parameter (-i) was renamed to --detailed (-d) parameter (for more information see UserManual or help command)
+- improved tree_visualization script and adaptations to new DomRates output format
+- updated UserManual with "Data preparation" section and updated Example Case
+- major code improvements and optimizations
+- bugfixes in counting of special cases of non-ambiguous/ambiguous solutions including fission events
+- new UnitTests and updated IntegrationTests

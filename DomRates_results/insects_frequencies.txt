@@ -1,0 +1,27 @@
+# DomRates version 1.0.0 at Wed Mar 20 14:31:52 2019
+# domRates -t insects_phytree_brb3.nwk -a only_longest_isos/ -g outgroups -e _iso.fa.dom -o <path> -s <path> -n  -d 1 -p 10
+# Solution types
+Exact solutions: 22163
+Non-ambiguous solutions: 2090
+Ambiguous solutions: 2100
+Complex solutions: 21683
+Maintained arrangements total: 587833
+
+Exact and non-ambiguous solutions: 24253
+
+# Event types
+Fusions: 10070
+Fissions: 4174
+Terminal Loss: 4658
+Terminal Emergences: 88
+Single Domain Losses: 4848
+Single Domain Emergences: 415
+
+# Event rates
+Fusion rate: 41.52%
+Fission rate: 17.21%
+Terminal Loss rate: 19.21%
+Terminal Emergence rate: 0.36%
+Single Domain Loss rate: 19.99%
+Single Domain Emergence rate: 1.71%
+

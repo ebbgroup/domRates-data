@@ -1,0 +1,30 @@
+# Number of events per node.
+# Node ID	#Fusions	#Fissions	#TerminalLosses	#TerminalEmergences	#SingleDomainLosses	#SingleDomainEmergences	#Maintained
+0	0	0	0	0	0	0	0
+1	0	0	0	0	0	0	0
+2	0	0	0	0	1	0	13
+3	0	0	4	0	0	0	12
+4	0	0	0	0	0	0	13
+5	1	1	0	1	0	0	14
+6	2	1	1	1	0	0	12
+7	0	0	0	0	0	0	14
+8	1	0	0	0	0	0	7
+9	0	1	0	0	0	1	13
+10	0	0	0	0	0	0	0
+# Events per domain arrangement for last common ancestor of A:B.
+# Node-ID	solution type	event type	new arrangement at current node	arrangement at parental node
+4	complex solution	?	PF00011 PF00012	
+4	complex solution	?	PF00013 PF00014 PF00015	
+4	maintained	maintained	PF00001	PF00001
+4	maintained	maintained	PF00006 PF00007 PF00008 PF00009 PF00010	PF00006 PF00007 PF00008 PF00009 PF00010
+4	maintained	maintained	PF00010 PF00009 PF00008 PF00007 PF00006	PF00010 PF00009 PF00008 PF00007 PF00006
+4	maintained	maintained	PF00016 PF00017	PF00016 PF00017
+4	maintained	maintained	PF00016 PF00017 PF00018 PF00019	PF00016 PF00017 PF00018 PF00019
+4	maintained	maintained	PF00018	PF00018
+4	maintained	maintained	PF00020	PF00020
+4	maintained	maintained	PF00020 PF00021	PF00020 PF00021
+4	maintained	maintained	PF00021 PF00022 PF00023	PF00021 PF00022 PF00023
+4	maintained	maintained	PF00022 PF00023	PF00022 PF00023
+4	maintained	maintained	PF00031 PF00032	PF00031 PF00032
+4	maintained	maintained	PF00031 PF00032 PF00033 PF00040	PF00031 PF00032 PF00033 PF00040
+4	maintained	maintained	PF00033	PF00033

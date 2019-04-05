@@ -1,0 +1,26 @@
+# DomRates version 1.0.0 at Wed Mar  6 23:16:54 2019
+# domRates -t ../data/test_tree.nwk -a ../data/ -g OG -e .dom -o results/test_out.txt -s results/test_out_stats.txt -n  -d 0 -p 1
+# Solution types
+Exact solutions: 15
+Non-ambiguous solutions: 1
+Ambiguous solutions: 1
+Complex solutions: 2
+
+Exact and non-ambiguous solutions: 16
+
+# Event types
+Fusions: 4
+Fissions: 3
+Terminal Loss: 5
+Terminal Emergences: 2
+Single Domain Losses: 1
+Single Domain Emergences: 1
+
+# Event rates
+Fusion rate: 25.00%
+Fission rate: 18.75%
+Terminal Loss rate: 31.25%
+Terminal Emergence rate: 12.50%
+Single Domain Loss rate: 6.25%
+Single Domain Emergence rate: 6.25%
+

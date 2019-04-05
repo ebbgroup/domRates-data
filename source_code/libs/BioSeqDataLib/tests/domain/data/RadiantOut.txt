@@ -1,0 +1,20 @@
+# RADIANT 0.9.1-beta
+# RADIANT output format: 1.0
+# run at Tue Oct 10 10:24:55 2017
+#
+# Options used:
+#-----------------------------------------------------------------------------
+# query file: /global/scratch/ckeme_01/radiant_data/human/Homo_sapiens.GRCh38.pep.all.fa.iso.fa
+# database file: /global/scratch/ckeme_01/radiant_data/radiant_pfam_31_small/pfam31-small
+# translate: false
+#-----------------------------------------------------------------------------
+#
+# <seq id> <match start> <match end> <hmm acc> <hmm name> <type> <clan>
+
+ENSP00000362111.4      25     25 PF00335 Tetraspannin    Family      CL0347
+ENSP00000362122.4     114    114 PF04089 BRICHOS         Domain      No_clan
+ENSP00000360640.4      36     36 PF00535 Glycos_transf_2 Family      CL0110
+ENSP00000356744.1      42     42 PF00069 Pkinase         Domain      CL0016
+ENSP00000352276.4     184    184 PF14868 DUF4487         Family      No_clan
+ENSP00000363117.3      91     91 PF00018 SH3_1           Domain      CL0010
+ENSP00000363117.3     152    152 PF00017 SH2             Domain      CL0541

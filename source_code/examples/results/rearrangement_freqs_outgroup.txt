@@ -1,0 +1,26 @@
+# DomRates version 1.0.0 at Wed Mar  6 23:49:25 2019
+# domRates -t example_tree_wog.nwk -a annotations/ -g outgroup -e .dom -o rearrangement_freqs_outgroup.txt -s stats_outgroup.txt -n  -d 0 -p 1
+# Solution types
+Exact solutions: 1946
+Non-ambiguous solutions: 204
+Ambiguous solutions: 283
+Complex solutions: 1770
+
+Exact and non-ambiguous solutions: 2150
+
+# Event types
+Fusions: 775
+Fissions: 367
+Terminal Loss: 382
+Terminal Emergences: 69
+Single Domain Losses: 432
+Single Domain Emergences: 125
+
+# Event rates
+Fusion rate: 36.05%
+Fission rate: 17.07%
+Terminal Loss rate: 17.77%
+Terminal Emergence rate: 3.21%
+Single Domain Loss rate: 20.09%
+Single Domain Emergence rate: 5.81%
+

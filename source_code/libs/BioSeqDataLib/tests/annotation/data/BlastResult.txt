@@ -1,0 +1,14 @@
+# BLASTP 2.2.30+
+# Query: gnl|em|HSFAU1 (X65921) H.sapiens fau 1 gene
+# Database: seqSet.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+gnl|em|HSFAU1	gnl|em|HSFAU1	100.00	600	0	0	1	600	1	600	0.0	  723
+# BLASTP 2.2.30+
+# Query: gnl|em|HSFAU (X65923) H.sapiens fau mRNA
+# Database: seqSet.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+gnl|em|testQuery	gnl|em|test1	100.00	518	0	0	1	518	1	518	0.0	  632
+gnl|em|testQuery	gnl|em|test2	100.00	518	0	0	1	518	1	518	0.0	  632
+# BLAST processed 2 queries

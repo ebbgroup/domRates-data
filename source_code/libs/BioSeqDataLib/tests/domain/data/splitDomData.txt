@@ -1,0 +1,40 @@
+# pfam_scan.pl,  run at Tue Aug 16 11:03:11 2016
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jm14@sanger.ac.uk), John Tate (jt6@sanger.ac.uk), 
+#          Rob Finn (rdf@sanger.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: /home/a/a_labu02/Documents/SplitDomRec/Amellifera_clean_proteins.fa
+#        searching against: /global/databases/pfam/v30.0/Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+gnl|Amel_4.5|GB50239-PA     39    149     39    150 PF02771.14  Acyl-CoA_dh_N     Domain     1   111   113    100.6   7.3e-29   1 CL0544   
+gnl|Amel_4.5|GB50239-PA    154    249    154    249 PF02770.17  Acyl-CoA_dh_M     Domain     1    97    97     92.5   1.3e-26   1 No_clan  
+gnl|Amel_4.5|GB50239-PA    261    407    261    409 PF00441.22  Acyl-CoA_dh_1     Domain     1   147   150    147.9   2.2e-43   1 CL0087   
+gnl|Amel_4.5|GB50239-PA    300    400    154    249 PF02770.17  Acyl-CoA_dh_M     Domain     1    97    97     92.5   1.3e-26   1 No_clan  
+gnl|Amel_4.5|GB44679-PA     33     84     33    113 PF01426.16  BAH               Domain     1    52   121     34.6   1.2e-08   1 No_clan  
+gnl|Amel_4.5|GB44679-PA    171    237    148    237 PF01426.16  BAH               Domain    53   121   121     58.8     4e-16   1 No_clan  
+gnl|Amel_4.5|GB44679-PA    500    550     33    113 PF01426.16  BAH               Domain     1    52   121     34.6   1.2e-08   1 No_clan  
+gnl|Amel_4.5|GB44679-PA    560    700    148    237 PF01426.16  BAH               Domain    53   121   121     58.8     4e-16   1 No_clan  
+gnl|Amel_4.5|GB44677-PA     33     84     33    113 PF01426.16  BAH               Domain     1    12   121     34.6   1.2e-08   1 No_clan  
+gnl|Amel_4.5|GB44677-PA    171    237    148    237 PF01426.16  BAH               Domain    10   30   121     58.8     4e-16   1 No_clan  
+gnl|Amel_4.5|GB44677-PA    500    550     33    113 PF01426.16  BAH               Domain     1    12   121     34.6   1.2e-08   1 No_clan  
+gnl|Amel_4.5|GB44677-PA    560    700    148    237 PF01426.16  BAH               Domain    20   30   121     58.8     4e-16   1 No_clan  
